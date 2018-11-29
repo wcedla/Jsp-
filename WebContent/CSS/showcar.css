@@ -1,0 +1,346 @@
+@charset "GB18030";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+	background-color:#FFF;
+	display: block;
+	margin: 0px auto;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+
+div
+{
+	display:block;
+	margin: 0px;
+    padding: 0px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+ul
+{	
+    list-style: none;
+	padding:0px;
+	margin:0px;
+} 
+
+li 
+{
+	list-style: none;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo_show
+{
+	width: 100%;
+    height: 35px;
+	background: #f2f2f2;
+	padding:0px 0px;
+}
+
+.hi
+{
+	float: left;
+	width: 250px;
+    height: 35px;
+	margin:auto 200px;
+}
+
+.hi a
+{
+	display:block;
+	margin-top:8px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+.lbl
+{
+	float: right;
+	width: 140px;
+    height: 35px;
+	margin:0px 340px;
+}
+ 
+ #login_module
+ {
+	float: left;
+    width: 280px;
+    height: 22px;
+    margin: 5px auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+	display:block;
+ }
+
+li.login_b
+{
+	border-right: 1px solid #666;
+}
+
+#login_module li
+{
+	float: left;
+    width: 68px;
+    height: 22px;
+	text-align:center;
+}
+
+#login_module a
+{
+	display:block;
+	margin-top:2px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+#login_module a:hover {
+    color: #f60;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.Logo {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 180px;
+    width: 158px;
+    height: 58px;
+    left: 0;
+    top: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+#md
+{
+	margin-top: 30px;
+}
+
+#fzk
+{
+	width: 1200px;
+	margin: auto;
+}
+
+#cftb
+{
+	table-layout: fixed;
+    background: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: white;
+}
+
+#cftb td
+{
+	border-top: 1px solid #dbdbdb;
+    padding: 9px 4px;
+    line-height: 18px;
+}
+
+#fzk th
+{
+	height: 40px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    color: #333;
+    background: #9dab12;
+}
+
+#cartbimg
+{
+	width: 60px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #E4E4E4;
+    background: #fff;
+}
+
+#cartn
+{
+	text-align: left;
+}
+
+#cftb h3
+{
+	overflow: hidden;
+    word-break: break-all;
+    max-height: 36px;
+    margin-bottom: 6px;
+}
+
+td#cartn a {
+    color: black;
+}
+
+.jianyi
+{
+	width: 14px;
+    height: 13px;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+    border: none;
+    margin-top: 4px; 
+    vertical-align: middle;
+}
+
+.jiayi
+{
+	width: 14px;
+    height: 13px;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+    border: none;
+    margin-top: 4px; 
+    vertical-align: middle;
+}
+
+.shuliang
+{
+	width: 30px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border: #c9c9c9 1px solid;
+    margin-top: 4px;
+    vertical-align: middle;
+    color: #666;
+}
+
+#zongji
+{
+	margin-bottom: 35px;
+    text-align: right;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+#wt
+{
+	float:left;
+}
+
+#zjkuang {
+    width: 1184px;
+    height: 60px;
+    line-height: 60px;
+    background: #fff;
+    border: 1px solid #ddd;
+    bottom: 0;
+    padding: 0 7px;
+}
+
+#rightview {
+    float: right;
+}
+
+#zjkuang a {
+    margin-left: 12px;
+}
+
+#zjkuang strong {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    float: left;
+}
+
+
+#zjkuang #zhprice
+{
+	 font-size: 20px;
+	 margin: 0 5px 0 7px;
+}
+
+#jxgw {
+    background: #fff2f3;
+    width: 110px;
+    height: 35px;
+    vertical-align: top;
+    text-align: center;
+    color: #cc0000;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: 1px solid #cc0000;
+    border-radius: 3px;
+}
+
+#confirmToPay {
+    background: #cc0000;
+    width: 110px;
+    height: 35px;
+    border: 1px solid #cc0000;
+    vertical-align: top;
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#option {
+    float: left;
+}
+
+.Copyright {
+    background: #fff;
+    border-top: 1px solid #e5e5e5;
+    line-height: 2.5em;
+    padding: 1.5em 0;
+    clear: both;
+    margin-top: 55px;
+}
+
+.foottext {
+    text-align: center;
+    font-size: 15px;
+}
+
+

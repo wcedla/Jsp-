@@ -1,0 +1,389 @@
+@charset "GB18030";
+
+body
+{
+	background-color:#FFF;
+	display: block;
+	margin: 0px auto;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+
+div
+{
+	display:block;
+	margin: 0px;
+    padding: 0px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+ul
+{	
+    list-style: none;
+	padding:0px;
+	margin:0px;
+} 
+
+li 
+{
+	list-style: none;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo_show
+{
+	width: 100%;
+    height: 35px;
+	background: #f2f2f2;
+	padding:0px 0px;
+}
+
+.hi
+{
+	float: left;
+	width: 250px;
+    height: 35px;
+	margin:auto 200px;
+}
+
+.hi a
+{
+	display:block;
+	margin-top:8px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+.lbl
+{
+	float: right;
+	width: 140px;
+    height: 35px;
+	margin:0px 340px;
+}
+ 
+ #login_module
+ {
+	float: left;
+    width: 280px;
+    height: 22px;
+    margin: 5px auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+	display:block;
+ }
+
+li.login_b
+{
+	border-right: 1px solid #666;
+}
+
+#login_module li
+{
+	float: left;
+    width: 68px;
+    height: 22px;
+	text-align:center;
+}
+
+#login_module a
+{
+	display:block;
+	margin-top:2px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+#login_module a:hover {
+    color: #f60;
+}
+
+.Header {
+    width: 100%;
+    height: 110px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 1200px;
+}
+
+.Logo {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 158px;
+    height: 58px;
+    left: 0;
+    top: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+.Search {
+    position: absolute;
+    background: #c40000;
+    width: 534px;
+    height: 34px;
+    padding: 3px;
+    top: 28px;
+    left: 40%;
+    cursor: pointer;
+}
+
+.Search-input
+{
+	color: #333;
+    background: #fff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 34px;
+    width: 451px;
+    margin: 0;
+    padding: 10.5px;
+    line-height: 12px;
+    font-size: 12px;
+    border: none;
+    outline: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.Search-submit {
+    background: 0 0;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    line-height: 34px;
+    height: 34px;
+    width: 79px;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.Search-hot {
+	position: absolute;
+    left: 41%;
+    color: #ddd;
+    font-size: 12px;
+    line-height: 12px;
+    width: 450px;
+    height: 12px;
+    overflow: hidden;
+    top: 78px;
+}
+
+.Search-hot a {
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.gray {
+    color: #999;
+}
+
+.Nav {
+    background: #e23434;
+    color: #fff;
+    height: 33px;
+    position: relative;
+    z-index: 2;
+}
+
+.allgoods
+{
+	margin: auto;
+    width: 1200px;
+    position: relative;
+}
+
+.Nav-item.first {
+	float:left;
+	font-size: 15px;
+    line-height: 33px;
+    width: 100px;
+    margin-left: 190px;
+}
+.Nav-item {
+	float:left;
+    font-size: 15px;
+    line-height: 33px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.Nav-item>a
+{
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+	cursor: pointer;
+}
+
+#titletext
+{
+	position:relative;
+	margin-top:20px;
+	margin-left:180px;
+	font-size:13px;
+	clear:both;
+}
+
+#picshow
+{
+	margin-top: 30px;
+}
+
+#picshow #kuang
+{
+	width: 1200px;
+	margin: auto;
+}
+
+#goods
+{
+}
+
+#connect
+{
+	float:left;
+	margin: 20px 20px 20px 20px;
+	border: 1px solid #ebeaea;
+	border-collapse: collapse;
+}
+
+
+#connect:hover
+{
+	border: 1px solid #006158;
+}
+
+
+#connect img
+{
+    display: block;
+   margin: 20px auto;
+}
+
+#connect #price
+{
+	font-size:20px;
+	color:#cc0000;
+}
+#connect #name
+{
+	font-size:15px;
+	color:black;
+}
+
+#foot
+{
+	margin: 30px 0px;
+}
+
+
+#foot #footer
+{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+
+#pagetext {
+    letter-spacing: 1px;
+}
+
+#pagebtn
+{
+	margin:30px 0px;
+}
+
+#pagebtn #btnup
+{
+	margin:auto;
+	position: relative;
+    left: -88px;
+}
+
+#pagebtn #btnnext
+{
+	margin:auto;	
+	position: relative;
+    right: -60px;
+}
+
+#carkuang
+{
+	position: relative;
+    border: 1px solid #e1e1e1;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px 10px;
+    margin:0px;
+}
+
+#carkuang:hover
+{
+	 border: 1px solid #F44336;
+}
+
+a#goodscar
+{
+	color:black;
+	font-size: 15px;
+    font-weight: bold;
+}
+
+img#gcar
+{
+	display:inline;
+	margin: 4px 9px 7px 0px;
+    width: 19px;
+    height: 17px;
+}
+
+.Copyright {
+    background: #fff;
+    border-top: 1px solid #e5e5e5;
+    line-height: 2.5em;
+    padding: 1.5em 0;
+    clear: both;
+}
+
+.foottext {
+    text-align: center;
+    font-size:15px;
+}

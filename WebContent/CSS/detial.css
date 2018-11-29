@@ -1,0 +1,484 @@
+@charset "GB18030";
+
+body
+{
+	background-color:#FFF;
+	display: block;
+	margin: 0px auto;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+
+div
+{
+	display:block;
+	margin: 0px;
+    padding: 0px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+ul
+{	
+    list-style: none;
+	padding:0px;
+	margin:0px;
+} 
+
+li 
+{
+	list-style: none;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo_show
+{
+	width: 100%;
+    height: 35px;
+	background: #f2f2f2;
+	padding:0px 0px;
+}
+
+.hi
+{
+	float: left;
+	width: 250px;
+    height: 35px;
+	margin:auto 200px;
+}
+
+.hi a
+{
+	display:block;
+	margin-top:8px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+.lbl
+{
+	float: right;
+	width: 140px;
+    height: 35px;
+	margin:0px 340px;
+}
+ 
+ #login_module
+ {
+	float: left;
+    width: 280px;
+    height: 22px;
+    margin: 5px auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+	display:block;
+ }
+
+li.login_b
+{
+	border-right: 1px solid #666;
+}
+
+#login_module li
+{
+	float: left;
+    width: 68px;
+    height: 22px;
+	text-align:center;
+}
+
+#login_module a
+{
+	display:block;
+	margin-top:2px;
+	text-decoration:none;
+	color:#666;
+	font-size:13px;
+}
+
+#login_module a:hover {
+    color: #f60;
+}
+
+.Header {
+    width: 100%;
+    height: 110px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 1200px;
+}
+
+.Logo {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 158px;
+    height: 58px;
+    left: 0;
+    top: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+.Search {
+    position: absolute;
+    background: #c40000;
+    width: 534px;
+    height: 34px;
+    padding: 3px;
+    top: 28px;
+    left: 40%;
+    cursor: pointer;
+}
+
+.Search-input
+{
+	color: #333;
+    background: #fff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 34px;
+    width: 451px;
+    margin: 0;
+    padding: 10.5px;
+    line-height: 12px;
+    font-size: 12px;
+    border: none;
+    outline: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.Search-submit {
+    background: 0 0;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    line-height: 34px;
+    height: 34px;
+    width: 79px;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.Search-hot {
+	position: absolute;
+    left: 41%;
+    color: #ddd;
+    font-size: 12px;
+    line-height: 12px;
+    width: 450px;
+    height: 12px;
+    overflow: hidden;
+    top: 78px;
+}
+
+.Search-hot a {
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.gray {
+    color: #999;
+}
+
+.Nav {
+    background: #e23434;
+    color: #fff;
+    height: 33px;
+    position: relative;
+    z-index: 2;
+}
+
+.allgoods
+{
+	margin: auto;
+    width: 1200px;
+    position: relative;
+}
+
+.Nav-item.first {
+	float:left;
+	font-size: 15px;
+    line-height: 33px;
+    width: 100px;
+    margin-left: 190px;
+}
+.Nav-item {
+	float:left;
+    font-size: 15px;
+    line-height: 33px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.Nav-item>a, .Nav-item>a:link, .Nav-item>a:visited {
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#md
+{
+	margin-top: 30px;
+}
+
+#kuang
+{
+	width: 1200px;
+	margin: auto;
+}
+
+#pickuang
+{
+	margin:5px 10px;
+	width: 400px;
+    text-align: center;
+    overflow:hidden;
+    float:left;
+}
+
+#pic
+{
+	border: 1px solid #0f0e0e;
+    padding: 15px;
+    width: 350px;
+    text-align: center;
+    overflow:hidden;
+}
+
+#headertext
+{
+	height:50px;
+}
+
+#mstext
+{
+	font-size:15px;
+	color:black;
+	margin:auto;
+}
+
+#sp1
+{
+    margin: 25px 25px;
+    border: 1px solid #009688;
+    padding: 10px;
+}
+
+#textdetial
+{
+	float:left;
+	margin: 5px 10px;
+	width: 600px;
+}
+
+#goodsname
+{
+	font-size:15px;
+	color:black;
+}
+
+#texttile
+{
+	margin: 5px 5px;
+    padding: 2px;
+}
+
+#textsc
+{
+    background: #4CAF50;
+    border: 1px solid #009688;
+    margin: 7px 5px;
+    padding: 2px;
+    color: white;
+    margin-bottom:0px;
+}
+
+#textjg
+{
+    margin: 0px 5px;
+    padding: 30px 0px;
+    background: #dadada;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#jgtext
+{
+	font-size: 25px;
+    color: #c40000;
+}
+
+#textys
+{
+    margin: 5px 20px;
+    padding: 5px 0px;
+}
+
+#btn1
+{
+    width: 35px;
+    height: 19px;
+    margin: 5px 50px;
+    margin-left: 70px;
+    background: #d4d4d4;
+    border: none;
+}
+
+#btn2
+{
+    width: 35px;
+    height: 19px;
+    margin: 5px 50px;
+    margin-left: 0px;
+    background: #2e2d2d;
+    border: none;
+}
+
+#ver1
+{
+    margin: 5px 30px;
+    border: 1px solid #009688;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 70px;
+}
+
+#ver2
+{
+    margin: 5px 10px;
+    border: 1px solid #009688;
+    font-size: 10px;
+    padding: 5px;
+}
+
+#btnsub
+{
+	margin:5px 20px;
+	margin-left:70px;
+	  line-height: 12px;
+}
+
+#btnplus
+{
+    line-height: 12px;
+}
+
+#count
+{
+    margin: 5px 0px;
+    width: 36px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#add2car
+{
+    display: inline-block;
+    border: 1px solid #c40000;
+    height: 38px;
+    line-height: 38px;
+    width: 178px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 88px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background: #c40000;
+    color: #fff;
+}
+
+#showdetial
+{
+    position: relative;
+    top: 100px;
+	left: 200px;
+    float: left;
+}
+
+#headertle
+{
+	height: 38px;
+    border: 1px solid #dddddd;
+    width: 978px;
+}
+
+.detialheader
+{
+    float: left;
+    margin: 2px 0px;
+    height: 32px;
+    line-height: 30px;
+    border-right: 1px solid #dddddd;
+    margin-bottom: -1px;
+    background: #fafafa;
+    overflow: hidden;
+    position: relative;
+    padding: 2px 40px;
+}
+
+.detialheader:hover
+{
+    background: #f5f5f5;
+}
+
+#picshowdetial
+{
+	border: 1px solid #dddddd;
+    width: 978px;
+}
+
+#bigpic1
+{
+	margin:80px 350px;
+}
+
+.Copyright 
+{
+    position: relative;
+    background: #fff;
+    border-top: 1px solid #e5e5e5;
+    line-height: 2.5em;
+    padding: 1.5em 0;
+    clear: both;
+    top: 150px;
+}
+
+.foottext {
+    text-align: center;
+    font-size:15px;
+}
